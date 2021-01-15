@@ -7,7 +7,8 @@
     android:background="@drawable/back1"
     android:orientation="vertical"
     android:scaleType="centerCrop"
-    tools:context=".controller.Fenetre_Quizz">
+    tools:context=".controller.Fenetre_Quizz"
+    >
 
 
     <TextView
@@ -16,7 +17,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
-        android:background="@color/design_default_color_surface"
+        android:background="@android:drawable/edit_text"
         android:fontFamily="casual"
         android:textAlignment="center"
         android:textSize="20dp"

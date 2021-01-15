@@ -72,15 +72,15 @@ public class Fenetre_Quizz extends AppCompatActivity implements View.OnClickList
     private Banque_Questions genererQuestion() {
 
         Question q1 = new Question("Quel est le QI de Sheldon?", Arrays.asList("187", "200", "220", "189"), 0);
-        Question q2 = new Question("?", Arrays.asList("", "'", "", ""), 1);
-        Question q3 = new Question("?", Arrays.asList("", "'", "", ""), 1);
-        Question q4 = new Question("?", Arrays.asList("", "'", "", ""), 1);
-        Question q5 = new Question("?", Arrays.asList("", "'", "", ""), 1);
-        Question q6 = new Question("?", Arrays.asList("", "'", "", ""), 1);
-        Question q7 = new Question("?", Arrays.asList("", "'", "", ""), 1);
-        Question q8 = new Question("?", Arrays.asList("", "'", "", ""), 1);
-        Question q9 = new Question("?", Arrays.asList("", "'", "", ""), 1);
-        Question q10 = new Question("?", Arrays.asList("", "'", "", ""), 1);
+        Question q2 = new Question("Lors d'un dîner chez Priya et Raj, Harry Potter passe à la TV. De quel film s'agit-il ?", Arrays.asList("Harry Potter à l'école des sorciers", "Harry Potter et la Chambre des secrets", "Harry Potter et le Prisonnier d'Azkaban", "Harry Potter et la Coupe de feu"), 0);
+        Question q3 = new Question("Contre vérité est un jeu inventé par?", Arrays.asList("Barry Kripke", "éonard Hofstadter", "Howard Wolowitz", "Une autre personne"), 3);
+        Question q4 = new Question("Quel surnom ont donné les astronautes à Howard ??", Arrays.asList("Choco-muesli ramollo", "Rocket Man", "Le Petit Astronaute", "L'Astronaute juif"), 0);
+        Question q5 = new Question("Comment s'appelle la berceuse que Sheldon aime ?", Arrays.asList("Hello Kitty", "Hard Bird", "Cool Dog", "Soft Kitty"), 3);
+        Question q6 = new Question("À quel étage se situent les appartements de Penny et de Leonard et Sheldon ?", Arrays.asList("Au 5e étage", "Au 2e étage", "Au 3e étage", "Au 4e étage"), 3);
+        Question q7 = new Question("Dans quelle université Leonard, Sheldon, Howard et Raj travaillent-ils ?", Arrays.asList("Berkeley", "Caltech", "Harcard", "Youngstown"), 1);
+        Question q8 = new Question("Entre Leonard, Sheldon, Howard et Raj, lequel des garçons n’a pas de doctorat ?", Arrays.asList("Howard", "Leonard", "Sheldon", "Raj"), 0);
+        Question q9 = new Question("Quel est le super-héros préféré de Sheldon ?", Arrays.asList("Superman", "Flash", "Spider-Man", "Batman"), 1);
+        Question q10 = new Question("Où travaille Penny ?", Arrays.asList("Au Cheesecake Factory", "A la cafétéria de l’université", "Au Szechuan Palace", "Au donut Factory"), 0);
 
         Question q11 = new Question("?", Arrays.asList("", "'", "", ""), 1);
         Question q12 = new Question("?", Arrays.asList("", "'", "", ""), 1);
@@ -127,7 +127,7 @@ public class Fenetre_Quizz extends AppCompatActivity implements View.OnClickList
         Question q50 = new Question("?", Arrays.asList("", "'", "", ""), 1);
 
 
-        return new Banque_Questions(Arrays.asList(q1/*, q2, q3, q4, q5, q6, q7, q8, q9, q10,
+        return new Banque_Questions(Arrays.asList(q1, q2, q3, q4, q5, q6, q7, q8, q9/*, q10,
                 q11, q12, q13, q14, q15, q16, q17, q18, q19, q20
                                           ,q21,q22,q23,q24,q24,q25,q26,q27,q28,q29,q30,
                                           q31,q32,q33,q34,q35,q36,q37,q38,q39,q40,
